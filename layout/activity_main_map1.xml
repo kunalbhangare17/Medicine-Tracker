@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:id="@+id/linear1"
+        >
+
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/lat"/>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="6789012"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/lon"/>
+
+    </LinearLayout>
+
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:id="@+id/linear2">
+
+
+    </RelativeLayout>-->
+
+
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:id="@+id/start"
+       android:visibility="invisible"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/relative2"
+        android:layout_below="@+id/linear1">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

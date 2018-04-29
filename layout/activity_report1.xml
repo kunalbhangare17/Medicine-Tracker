@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Blood Pressure"
+       android:id="@+id/text"
+       android:textSize="15dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:hint="Enter Systolic"
+        android:id="@+id/sys"/>
+    <EditText
+        android:layout_width="200dp"
+        android:id="@+id/dia"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:hint="Enter Diastolic"
+        android:layout_toRightOf="@+id/sys"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/sys"
+    android:text="Blood Sugar"
+    android:textSize="15dp"
+    android:id="@+id/text1"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:hint="Enter Glucose"
+
+        android:id="@+id/gluco"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:hint="Enter AIC"
+        android:id="@+id/aic"
+        android:layout_toRightOf="@+id/gluco"/>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gluco"
+        android:text="Heart Health"
+        android:id="@+id/text2"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:hint="Total Cholestrol"
+
+        android:id="@+id/chro" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gluco"
+        android:text="Body Composition"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/text2"/>
+
+    />
+    <EditText
+        android:id="@+id/bmi"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:hint="BMI"
+        android:layout_toRightOf="@+id/gluco"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/chro"
+        android:layout_marginEnd="78dp"
+        android:layout_marginTop="65dp"
+        android:text="Submit" />
+
+    <ImageView
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/start"
+        android:src="@drawable/report"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp" />
+
+
+
+</RelativeLayout>

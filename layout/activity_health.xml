@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.inducesmile.androidfoodordering.androidfoodordering.HealthBlogActivity">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://en.wikipedia.org/wiki/Main_Page"
+            android:autoLink="web"
+            android:textSize="18sp"  />
+
+       <!-- <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:background="@color/colorPrimaryDark"/>-->
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.https://www.mylittlemoppet.com/"
+            android:autoLink="web"
+            android:textSize="24sp"
+             />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center|bottom"
+            android:text="3.http://www.momjunction.com/"
+            android:textSize="24sp" />-->
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
