@@ -1,0 +1,2 @@
+# Medicine-Tracker
+This is the Android Application which will keep track of the Dosage of the Medicine you have to take on the particular days and time like Morning, Afternoon or Evening. Also shows the location of the nearest Chemist in the map. Gives Health Tips and generates the report. It scans the medicine name from the prescription given by the doctor through OCR and stores it in the dataBase.
